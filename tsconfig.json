@@ -1,5 +1,5 @@
 {
-    "extends": "./LocalGenerated/win_b64/tsconfig.json",
+    "extends": "tsconfig.json",
     "compilerOptions": {
         "target": "es5",
         "module": "amd",
