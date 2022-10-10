@@ -1,0 +1,39 @@
+{
+    "extends": "./LocalGenerated/win_b64/tsconfig.json",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "moduleResolution": "classic",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "LocalGenerated/win_b64",
+        "declaration": true,
+        "declarationDir": "Objects/win_b64/tmp",
+        "sourceMap": true,
+        "mapRoot": "LocalGenerated/win_b64",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "traceResolution": false,
+        "noResolve": false,
+        "skipLibCheck": true,
+        "noEmitOnError": false,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "baseUrl": "."
+    },
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "exclude": [
+        "LocalGenerated",
+        "Objects",
+        "win_b64",
+        "linux_a64",
+        "ToolsData",
+        "node_modules"
+    ],
+    "compileOnSave": true
+}
