@@ -28,9 +28,6 @@
         "rewriteTsconfig": true
     },
     "exclude": [
-        "LocalGenerated",
-        "Objects",
-        "win_b64",
         "linux_a64",
         "ToolsData",
         "node_modules"
