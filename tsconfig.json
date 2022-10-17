@@ -29,7 +29,6 @@
     },
     "exclude": [
         "linux_a64",
-        "ToolsData",
         "node_modules"
     ],
     "compileOnSave": true
